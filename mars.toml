@@ -1,0 +1,19 @@
+[dependencies.meridian-base]
+url = "https://github.com/meridian-flow/meridian-base"
+
+[dependencies.meridian-dev-workflow]
+url = "https://github.com/meridian-flow/meridian-dev-workflow"
+
+[dependencies.meridian-prompter]
+url = "https://github.com/meridian-flow/meridian-prompter"
+
+[dependencies.anthropic-skills]
+url = "https://github.com/anthropics/skills"
+skills = ["frontend-design"]
+
+[settings]
+targets = [
+    ".agents",
+    ".claude",
+]
+models_cache_ttl_hours = 24

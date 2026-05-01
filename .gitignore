@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+
+# meridian-generated (regenerate with `meridian mars sync`)
+.agents/
+.claude/
+.mars/
+
+# meridian local state
+.meridian/
